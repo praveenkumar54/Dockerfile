@@ -1,6 +1,6 @@
 FROM tomcat:8.0-alpine
 
-ADD s3://gameoflife11/gameoflife-web/target/gameoflife.war /usr/local/tomcat/webapps/
+ADD https://gameoflife11.s3.us-east-2.amazonaws.com/gameoflife-web/target/gameoflife.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
